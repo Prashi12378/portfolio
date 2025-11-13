@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prashanth V · Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background">
+    <canvas id="bg-canvas" aria-hidden="true"></canvas>
+    <div class="background__layer background__layer--1"></div>
+    <div class="background__layer background__layer--2"></div>
+    <div class="background__layer background__layer--3"></div>
+    <div class="background__layer background__layer--grid"></div>
+    <div class="background__layer background__layer--sparkles"></div>
+    <div class="background__layer background__layer--mask"></div>
+  </div>
+
+  <main class="page">
+    <header class="hero">
+      <div class="hero__intro">
+        <div class="hero__badge">Machine Learning · IoT · Full-Stack</div>
+        <h1 class="hero__title">Prashanth V</h1>
+        <p class="hero__subtitle">
+          Bridging intelligent automation with immersive user experiences.
+        </p>
+        <div class="hero__actions">
+          <a href="mailto:prashanthprashi775@gmail.com" class="button">Email</a>
+          <a href="tel:+918792019057" class="button button--ghost">Call</a>
+          <a href="#" class="button button--outline">Download Résumé</a>
+        </div>
+        <div class="hero__meta">
+          <span class="meta__item">📍 Bengaluru, India</span>
+          <span class="meta__item">B.E. Artificial Intelligence & Machine Learning</span>
+        </div>
+        <div class="hero__links">
+          <a
+            href="https://www.linkedin.com/in/prashanth-v-3564232b8/"
+            class="chip"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://leetcode.com/u/Prashanth1510/"
+            class="chip"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LeetCode
+          </a>
+        </div>
+      </div>
+      <figure class="hero__profile">
+        <div class="hero__profile-glow"></div>
+        <div class="hero__profile-frame">
+          <img src="assets/profile.jpg" alt="Portrait of Prashanth V" />
+        </div>
+      </figure>
+    </header>
+
+    <section class="section section--highlight">
+      <div class="section__heading">
+        <h2>Highlights</h2>
+        <p>I design intelligent systems that rethink how people interact with technology.</p>
+      </div>
+      <div class="glide">
+        <article class="glide__card">
+          <h3>Hydroponic Intelligence</h3>
+          <p>
+            Researched and developed VR-enabled hydroponic solutions integrating IoT sensors
+            and predictive models to optimize yields.
+          </p>
+        </article>
+        <article class="glide__card">
+          <h3>Rapid AI Prototyping</h3>
+          <p>
+            Analyzed large datasets, trained TensorFlow models, and deployed ML services into
+            production pipelines.
+          </p>
+        </article>
+        <article class="glide__card">
+          <h3>Wellness Ecosystems</h3>
+          <p>
+            Full-stack web application delivering personalized fitness insights using Docker,
+            Node.js, and responsive UX patterns.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__heading">
+        <h2>Experience</h2>
+        <p>Solving complex problems with immersive ML and IoT solutions.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline__item">
+          <header>
+            <h3>Aviratha Digital Labs · Intern</h3>
+            <span>May 2025 – Dec 2025</span>
+          </header>
+          <p class="timeline__tagline">Hydroponic VR training platform · BMIST & JERBI Foundation</p>
+          <ul>
+            <li>Designed VR-based hydroponic training modules integrating IoT telemetry.</li>
+            <li>Unified research on farming methodologies with immersive pedagogy.</li>
+            <li>Collaborated cross-functionally to align product insights with lab initiatives.</li>
+          </ul>
+        </article>
+        <article class="timeline__item">
+          <header>
+            <h3>SkillCraft Technology · Machine Learning Intern</h3>
+            <span>Sep 2024</span>
+          </header>
+          <p class="timeline__tagline">Accelerated ML deployment</p>
+          <ul>
+            <li>Preprocessed and analyzed large datasets for faster training and deployment.</li>
+            <li>Delivered production-ready models backed by detailed validation.</li>
+            <li>Earned a performance certificate for delivering real-world ML solutions.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--grid">
+      <div class="section__heading">
+        <h2>Projects</h2>
+        <p>Human-centered technology transformations.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="card__badge">Node.js · Docker</div>
+          <h3>VitaTrack</h3>
+          <p>
+            Fitness and wellness web application featuring BMI analytics, calorie tracking,
+            workout planning, and integrated YouTube Data API suggestions.
+          </p>
+          <ul>
+            <li>Built authentication and responsive UI for unified user journeys.</li>
+            <li>Deployed with Docker and Node.js/Express for scalable rollouts.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card__badge">IoT · React Native</div>
+          <h3>Smart Refrigerator Inventory</h3>
+          <p>
+            IoT-based kit tracking fridge stock, automating spoilage alerts and restock
+            reminders with HX711 load cells and ESP32 communication.
+          </p>
+          <ul>
+            <li>Crafted mobile-first dashboards with real-time sync via Firebase.</li>
+            <li>Optimized data flows for resource-constrained embedded systems.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <div class="card__badge">C++ · GSM</div>
+          <h3>Smart Drainage Monitoring</h3>
+          <p>
+            Deployed MQ135 sensors and GSM alerts to identify gas leaks, water levels, and
+            drainage blockages across multiple pilot sites.
+          </p>
+          <ul>
+            <li>Reduced flood risks with rapid detection and real-time notifications.</li>
+            <li>Engineered ruggedized design tuned for municipal infrastructure.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--split">
+      <div>
+        <div class="section__heading">
+          <h2>Skills</h2>
+        </div>
+        <div class="skill-groups">
+          <div class="pill-group">
+            <h3>Programming</h3>
+            <div class="pill-group__items">
+              <span class="pill">Python</span>
+              <span class="pill">C</span>
+              <span class="pill">C++</span>
+              <span class="pill">SQL</span>
+              <span class="pill">JavaScript</span>
+            </div>
+          </div>
+          <div class="pill-group">
+            <h3>Web Development</h3>
+            <div class="pill-group__items">
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">Bootstrap</span>
+              <span class="pill">React Native</span>
+              <span class="pill">Node.js</span>
+            </div>
+          </div>
+          <div class="pill-group">
+            <h3>IoT & Hardware</h3>
+            <div class="pill-group__items">
+              <span class="pill">Arduino</span>
+              <span class="pill">Raspberry Pi</span>
+              <span class="pill">ESP32</span>
+              <span class="pill">Sensors (MQ135, Water Level, Tilt)</span>
+            </div>
+          </div>
+          <div class="pill-group">
+            <h3>Tools & Platforms</h3>
+            <div class="pill-group__items">
+              <span class="pill">Docker</span>
+              <span class="pill">Git</span>
+              <span class="pill">Firebase</span>
+              <span class="pill">MATLAB</span>
+              <span class="pill">Google Colab</span>
+              <span class="pill">TensorFlow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="certifications">
+        <div class="section__heading">
+          <h2>Certifications</h2>
+        </div>
+        <ul>
+          <li>Artificial Intelligence with Python · Infosys Springboard</li>
+          <li>Julia · Infosys Springboard</li>
+          <li>Machine Learning · MATLAB</li>
+        </ul>
+      </aside>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div>
+          <h2>Collaborate with me</h2>
+          <p>
+            I’m passionate about shaping intelligent systems that feel intuitive, immersive, and
+            reliable. Let’s build something bold.
+          </p>
+        </div>
+        <div class="footer__cta">
+          <a href="mailto:prashanthprashi775@gmail.com" class="button">Say Hello</a>
+          <a
+            href="https://www.linkedin.com/in/prashanth-v-3564232b8/"
+            class="button button--outline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://leetcode.com/u/Prashanth1510/"
+            class="button button--ghost"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LeetCode
+          </a>
+        </div>
+      </div>
+      <p class="footer__note">© <span id="year"></span> Prashanth V · Crafted with curiosity.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
